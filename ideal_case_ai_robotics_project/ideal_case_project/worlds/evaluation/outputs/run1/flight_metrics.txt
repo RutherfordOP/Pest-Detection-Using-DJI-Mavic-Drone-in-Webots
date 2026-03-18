@@ -1,0 +1,21 @@
+==== FLIGHT METRICS ====
+Elapsed (s): 1547.68
+Min Alt (m): 0.06
+Max Alt (m): 3.87
+Dist XY (m): 347.72
+Avg Speed (m/s): 0.22
+Max |roll| (deg): 0.6
+Max |pitch| (deg): 4.1
+Time[takeoff] (s): 5.34
+Time[idle_hover] (s): 21.34
+Time[nav_to_init] (s): 83.39
+Time[descend_to_survey] (s): 3.36
+Time[follow_path] (s): 1192.42
+Time[return_home] (s): 160.00
+Time[nav_to_land] (s): 79.33
+Time[land] (s): 2.53
+Replans: 292
+A* fails: 18
+Alt-freeze events: 0
+Unique pest cells: 4
+Events:

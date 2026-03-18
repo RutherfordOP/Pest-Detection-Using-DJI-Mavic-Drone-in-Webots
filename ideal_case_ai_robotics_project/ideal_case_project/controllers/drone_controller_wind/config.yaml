@@ -1,0 +1,18 @@
+# config.yaml – parameter file for drone_controller_mc_final.py
+# place in the same folder as the python controller
+
+run_dir_root:           "runs"          # will create dated sub-folders here
+wind_ms:                [0.0, 1.0, 2.0] # steady wind speeds for Monte-Carlo
+seeds_per_wind:         30              # random seeds per wind speed
+mission_timeout:        300             # seconds before forced abort
+crash_tilt_deg:         60              # °  tilt that counts as crash
+crash_z_min:            0.08            # m  lowest allowed altitude
+yellow_hsv_lo:          [18, 80, 120]   # HSV lower bound for yellow pests
+yellow_hsv_hi:          [35, 255, 255]  # HSV upper bound
+k_vertical_thrust:      68.5            # N  base thrust hover
+k_vertical_offset:      0.6             # m  small altitude offset
+k_vertical_p:           3.0             # altitude PID P
+k_roll_p:               50.0            # roll  PID P
+k_pitch_p:              30.0            # pitch PID P
+gust_tau:               3.0             # s  OU-gust time constant
+gust_sigma:             0.6             # m/s  OU-gust intensity

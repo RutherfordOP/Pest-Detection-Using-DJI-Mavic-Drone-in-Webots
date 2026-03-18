@@ -1,0 +1,5 @@
+Total unique pests detected: 4
+Farm 3 | t=125.02s | x=-13.351 y=12.056 | cell=(8,10)
+Farm 3 | t=126.08s | x=-13.328 y=11.917 | cell=(8,9)
+Farm 3 | t=130.05s | x=-13.531 y=10.94 | cell=(8,8)
+Farm 3 | t=635.07s | x=-13.613 y=9.873 | cell=(8,7)

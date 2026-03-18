@@ -1,0 +1,14 @@
+PROTO Wind [
+  field SFFloat speed 0
+  field SFVec3f direction 1 0 0
+] {
+  Solid {
+    name "WIND"
+    supervisor TRUE
+    translation 0 0 0
+    rotation 0 0 1 0
+    children [ ]
+    boundingObject NULL
+    physics NULL
+  }
+}

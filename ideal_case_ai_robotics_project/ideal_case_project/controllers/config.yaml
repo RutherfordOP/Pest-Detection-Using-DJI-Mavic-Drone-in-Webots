@@ -1,0 +1,17 @@
+# Drone Controller Config
+k_vertical_thrust: 68.5
+k_vertical_offset: 0.6
+k_vertical_p: 3.0
+k_roll_p: 50.0
+k_pitch_p: 30.0
+gust_tau: 3.0
+gust_sigma: 0.6
+wind_ms: [0.0, 1.0, 2.0]  # Base wind speeds for batch
+farms_mc: [1, 2, 3, 4]     # Farms to iterate in batch (optional; defaults to all)
+seeds_per_wind: 30
+mission_timeout: 300.0
+crash_tilt_deg: 60
+crash_z_min: 0.08
+yellow_hsv_lo: [18, 80, 120]
+yellow_hsv_hi: [35, 255, 255]
+run_dir_root: "./runs"      # Output folder root

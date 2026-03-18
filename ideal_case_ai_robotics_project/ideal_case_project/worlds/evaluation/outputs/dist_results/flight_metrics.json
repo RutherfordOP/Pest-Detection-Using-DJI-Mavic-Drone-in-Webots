@@ -1,0 +1,869 @@
+{
+  "start_time": 0.032,
+  "end_time": 237.568,
+  "total_distance_xy": 61.507313174028745,
+  "avg_speed_xy": 0.25893891104518363,
+  "min_alt": 0.062435318166616106,
+  "max_alt": 3.8746345423346287,
+  "max_abs_roll_deg": 0.5940437664667483,
+  "max_abs_pitch_deg": 4.128284490324853,
+  "phase_times": {
+    "takeoff": 5.344000000000004,
+    "idle_hover": 14.336000000000011,
+    "nav_to_init": 97.50399999999281,
+    "descend_to_survey": 3.3600000000000025,
+    "follow_path": 2.0160000000000013,
+    "return_home": 72.35199999999558,
+    "nav_to_land": 40.127999999999126,
+    "land": 2.528000000000002
+  },
+  "replan_count": 0,
+  "a_star_fail_count": 2,
+  "alt_freeze_count": 0,
+  "unique_pest_cells": 0,
+  "events": [
+    {
+      "t": 5.38,
+      "msg": "phase\u2192idle_hover"
+    },
+    {
+      "t": 19.68,
+      "msg": "farm_selected 1"
+    },
+    {
+      "t": 19.71,
+      "msg": "phase\u2192nav_to_init"
+    },
+    {
+      "t": 117.22,
+      "msg": "phase\u2192descend_to_survey"
+    },
+    {
+      "t": 120.58,
+      "msg": "phase\u2192follow_path"
+    },
+    {
+      "t": 121.34,
+      "msg": "replan_failed"
+    },
+    {
+      "t": 122.14,
+      "msg": "replan_failed"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=1"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=2"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=3"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=4"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=5"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=6"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=7"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=8"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=9"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=10"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=11"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=12"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=13"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=14"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=15"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=16"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=17"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=18"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=19"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=20"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=21"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=22"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=23"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=24"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=25"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=26"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=27"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=28"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=29"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=30"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=31"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=32"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=33"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=34"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=35"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=36"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=37"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=38"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=39"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=40"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=41"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=42"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=43"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=44"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=45"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=46"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=47"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=48"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=49"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=50"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=51"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=52"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=53"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=54"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=55"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=56"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=57"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=58"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=59"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=60"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=61"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=62"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=63"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=64"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=65"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=66"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=67"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=68"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=69"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=70"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=71"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=72"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=73"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=74"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=75"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=76"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=77"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=78"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=79"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=80"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=81"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=82"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=83"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=84"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=85"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=86"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=87"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=88"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=89"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=90"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=91"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=92"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=93"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=94"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=95"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=96"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=97"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=98"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=99"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=100"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=101"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=102"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=103"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=104"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=105"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=106"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=107"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=108"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=109"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=110"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=111"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=112"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=113"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=114"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=115"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=116"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=117"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=118"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=119"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=120"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=121"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=122"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=123"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=124"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=125"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=126"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=127"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=128"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=129"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=130"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=131"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=132"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=133"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=134"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=135"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=136"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=137"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=138"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=139"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=140"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=141"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=142"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=143"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=144"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=145"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=146"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=147"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=148"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=149"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=150"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=151"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=152"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=153"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=154"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=155"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=156"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=157"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=158"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=159"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=160"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=161"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=162"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=163"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=164"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=165"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=166"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=167"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=168"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=169"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=170"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=171"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=172"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=173"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=174"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=175"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=176"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=177"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=178"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=179"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=180"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=181"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=182"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=183"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=184"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=185"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=186"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=187"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=188"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=189"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=190"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=191"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=192"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=193"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=194"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=195"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=196"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=197"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=198"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=199"
+    },
+    {
+      "t": 122.56,
+      "msg": "skipped_blocked_waypoint idx=200"
+    },
+    {
+      "t": 122.59,
+      "msg": "phase\u2192return_home"
+    },
+    {
+      "t": 194.94,
+      "msg": "phase\u2192nav_to_land"
+    },
+    {
+      "t": 235.07,
+      "msg": "phase\u2192land"
+    }
+  ],
+  "skipped_waypoints": 200,
+  "lidar_hits": 2,
+  "reactive_detours": 0
+}
