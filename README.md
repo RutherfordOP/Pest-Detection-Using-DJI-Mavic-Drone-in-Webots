@@ -141,8 +141,3 @@ A few directions worth exploring:
 - **RRT\* / A\* planning** — replace the fixed grid with proper motion planning for complex environments
 - **ROS bridge** — Webots has a ROS2 interface if you want to connect this to real hardware
 
----
-
-## License
-
-MIT
